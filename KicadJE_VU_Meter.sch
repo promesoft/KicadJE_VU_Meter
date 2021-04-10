@@ -697,12 +697,12 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5EF9702E
-P 9100 4750
-F 0 "H5" H 9200 4796 50  0000 L CNN
-F 1 "Meter" H 9200 4705 50  0000 L CNN
-F 2 "AJ:VU_Meter_Hole" H 9100 4750 50  0001 C CNN
-F 3 "~" H 9100 4750 50  0001 C CNN
-	1    9100 4750
+P 8850 4675
+F 0 "H5" H 8950 4721 50  0000 L CNN
+F 1 "Meter" H 8950 4630 50  0000 L CNN
+F 2 "AJ:VU_Meter_Hole" H 8850 4675 50  0001 C CNN
+F 3 "~" H 8850 4675 50  0001 C CNN
+	1    8850 4675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1870,4 +1870,230 @@ Wire Wire Line
 	2025 3300 2025 3350
 Wire Wire Line
 	1950 7100 1950 7475
+$Comp
+L Device:Amperemeter_AC MES2
+U 1 1 60A9F992
+P 9300 5150
+F 0 "MES2" H 9453 5196 50  0000 L CNN
+F 1 "VU Meter Backlight" H 9453 5105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" V 9300 5250 50  0001 C CNN
+F 3 "~" V 9300 5250 50  0001 C CNN
+	1    9300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR0101
+U 1 1 60AA0119
+P 9150 4825
+AR Path="/60AA0119" Ref="#PWR0101"  Part="1" 
+AR Path="/5C8C5FC0/60AA0119" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60AA0119" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60AA0119" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60AA0119" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60AA0119" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0101" H 9150 4575 50  0001 C CNN
+F 1 "GND" H 9155 4652 50  0000 C CNN
+F 2 "" H 9150 4825 50  0001 C CNN
+F 3 "" H 9150 4825 50  0001 C CNN
+	1    9150 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12VA #PWR?
+U 1 1 60AA116C
+P 9300 5425
+AR Path="/5E4B0DD9/60AA116C" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60AA116C" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60AA116C" Ref="#PWR?"  Part="1" 
+AR Path="/60AA116C" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 9300 5275 50  0001 C CNN
+F 1 "-12VA" H 9450 5500 50  0000 C CNN
+F 2 "" H 9300 5425 50  0001 C CNN
+F 3 "" H 9300 5425 50  0001 C CNN
+	1    9300 5425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 5425 9300 5350
+Wire Wire Line
+	9300 4950 9300 4800
+Wire Wire Line
+	9300 4800 9150 4800
+Wire Wire Line
+	9150 4800 9150 4825
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 60ABB9E2
+P 1500 2700
+F 0 "H7" H 1600 2749 50  0000 L CNN
+F 1 "Jack" H 1600 2658 50  0000 L CNN
+F 2 "AJ:Jack_3m5" H 1500 2700 50  0001 C CNN
+F 3 "~" H 1500 2700 50  0001 C CNN
+	1    1500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 60ABC029
+P 1500 4075
+F 0 "H8" H 1600 4124 50  0000 L CNN
+F 1 "Jack" H 1600 4033 50  0000 L CNN
+F 2 "AJ:Jack_3m5" H 1500 4075 50  0001 C CNN
+F 3 "~" H 1500 4075 50  0001 C CNN
+	1    1500 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR0103
+U 1 1 60ABC354
+P 1500 4175
+AR Path="/60ABC354" Ref="#PWR0103"  Part="1" 
+AR Path="/5C8C5FC0/60ABC354" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60ABC354" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60ABC354" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60ABC354" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60ABC354" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0103" H 1500 3925 50  0001 C CNN
+F 1 "GND" H 1505 4002 50  0000 C CNN
+F 2 "" H 1500 4175 50  0001 C CNN
+F 3 "" H 1500 4175 50  0001 C CNN
+	1    1500 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR0104
+U 1 1 60ABC5DE
+P 1500 2800
+AR Path="/60ABC5DE" Ref="#PWR0104"  Part="1" 
+AR Path="/5C8C5FC0/60ABC5DE" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60ABC5DE" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60ABC5DE" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60ABC5DE" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60ABC5DE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0104" H 1500 2550 50  0001 C CNN
+F 1 "GND" H 1505 2627 50  0000 C CNN
+F 2 "" H 1500 2800 50  0001 C CNN
+F 3 "" H 1500 2800 50  0001 C CNN
+	1    1500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 60ACF365
+P 925 5375
+F 0 "H6" H 1025 5424 50  0000 L CNN
+F 1 "Jack" H 1025 5333 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 925 5375 50  0001 C CNN
+F 3 "~" H 925 5375 50  0001 C CNN
+	1    925  5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR0105
+U 1 1 60ACFCBF
+P 925 5475
+AR Path="/60ACFCBF" Ref="#PWR0105"  Part="1" 
+AR Path="/5C8C5FC0/60ACFCBF" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60ACFCBF" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60ACFCBF" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60ACFCBF" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60ACFCBF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0105" H 925 5225 50  0001 C CNN
+F 1 "GND" H 930 5302 50  0000 C CNN
+F 2 "" H 925 5475 50  0001 C CNN
+F 3 "" H 925 5475 50  0001 C CNN
+	1    925  5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 60AF0323
+P 700 5375
+F 0 "H?" H 800 5424 50  0000 L CNN
+F 1 "Jack" H 800 5333 50  0000 L CNN
+F 2 "AJ:Jack_3m5" H 700 5375 50  0001 C CNN
+F 3 "~" H 700 5375 50  0001 C CNN
+	1    700  5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  5475 925  5475
+Connection ~ 925  5475
+Wire Wire Line
+	1550 5725 1475 5725
+Wire Wire Line
+	2375 5825 2425 5825
+$Comp
+L Device:R R?
+U 1 1 60AFA9E5
+P 2225 5825
+AR Path="/60AFA9E5" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/60AFA9E5" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/60AFA9E5" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/60AFA9E5" Ref="R?"  Part="1" 
+AR Path="/5F49A670/60AFA9E5" Ref="R?"  Part="1" 
+F 0 "R?" V 2100 5825 50  0000 C CNN
+F 1 "1k" V 2225 5825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2155 5825 50  0001 C CNN
+F 3 "~" H 2225 5825 50  0001 C CNN
+	1    2225 5825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 5725 1550 6000
+$Comp
+L Connector:TestPoint TP?
+U 1 1 60AFA9F0
+P 1475 5725
+F 0 "TP?" H 1533 5843 50  0000 L CNN
+F 1 "Out" H 1533 5752 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1675 5725 50  0001 C CNN
+F 3 "~" H 1675 5725 50  0001 C CNN
+	1    1475 5725
+	1    0    0    -1  
+$EndComp
+Connection ~ 1475 5725
+Wire Wire Line
+	1475 5725 1400 5725
+$Comp
+L Device:R R?
+U 1 1 60AFA9FC
+P 1800 6000
+AR Path="/60AFA9FC" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/60AFA9FC" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/60AFA9FC" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/60AFA9FC" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/60AFA9FC" Ref="R?"  Part="1" 
+AR Path="/5F49A670/60AFA9FC" Ref="R?"  Part="1" 
+F 0 "R?" V 1875 6075 50  0000 C CNN
+F 1 "OPEN" V 1800 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 6000 50  0001 C CNN
+F 3 "~" H 1800 6000 50  0001 C CNN
+	1    1800 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 6000 1550 6000
+Wire Wire Line
+	1950 6000 2000 6000
+Wire Wire Line
+	2000 6000 2000 5825
+Wire Wire Line
+	1400 5825 2000 5825
+Connection ~ 2000 5825
+Wire Wire Line
+	2000 5825 2075 5825
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60AFAA0C
+P 1200 5825
+F 0 "J?" H 1308 6106 50  0000 C CNN
+F 1 "Out" H 1308 6015 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1200 5825 50  0001 C CNN
+F 3 "~" H 1200 5825 50  0001 C CNN
+	1    1200 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 5825 2425 5325
 $EndSCHEMATC
