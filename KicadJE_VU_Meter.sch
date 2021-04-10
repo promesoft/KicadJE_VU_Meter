@@ -387,23 +387,6 @@ F 3 "" H 2025 1000 50  0001 C CNN
 	1    2025 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:TL072 U?
-U 2 1 5F7CE424
-P 2300 7475
-AR Path="/5D99B81E/5F7CE424" Ref="U?"  Part="3" 
-AR Path="/5D99B7BA/5F7CE424" Ref="U?"  Part="1" 
-AR Path="/5F18E4B5/5F7CE424" Ref="U?"  Part="2" 
-AR Path="/5E62ACA1/5F7CE424" Ref="U?"  Part="1" 
-AR Path="/5F49A670/5F7CE424" Ref="U?"  Part="2" 
-AR Path="/5F7CE424" Ref="U1"  Part="2" 
-F 0 "U1" H 2325 7450 50  0000 C CNN
-F 1 "TL072" H 2275 7525 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2300 7475 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2300 7475 50  0001 C CNN
-	2    2300 7475
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2025 1800 1725 1800
 Connection ~ 2025 1800
@@ -442,11 +425,6 @@ Wire Wire Line
 	1725 1400 1625 1400
 Wire Wire Line
 	1550 5225 1550 5500
-Wire Wire Line
-	2600 7375 2650 7375
-Connection ~ 1950 7475
-Wire Wire Line
-	1950 7475 2000 7475
 Wire Notes Line
 	525  525  525  7725
 $Comp
@@ -478,33 +456,6 @@ Text Notes 4250 4800 0    50   ~ 0
 Input 
 Text Notes 4225 5000 0    50   ~ 0
 Output 
-Wire Wire Line
-	2925 1000 3050 1000
-Connection ~ 2925 1000
-Wire Wire Line
-	2925 1800 3050 1800
-Connection ~ 2925 1800
-$Comp
-L Amplifier_Operational:TL072 U?
-U 3 1 5E9259AD
-P 2950 1400
-AR Path="/5D99B81E/5E9259AD" Ref="U?"  Part="3" 
-AR Path="/5D99B7BA/5E9259AD" Ref="U?"  Part="1" 
-AR Path="/5F18E4B5/5E9259AD" Ref="U?"  Part="3" 
-AR Path="/5E62ACA1/5E9259AD" Ref="U?"  Part="3" 
-AR Path="/5F49A670/5E9259AD" Ref="U?"  Part="3" 
-AR Path="/5E9259AD" Ref="U2"  Part="3" 
-F 0 "U2" V 2800 1125 50  0000 C CNN
-F 1 "TL072" V 2800 1650 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2950 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2950 1400 50  0001 C CNN
-	3    2950 1400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 1100 3050 1000
-Wire Wire Line
-	3050 1700 3050 1800
 $Comp
 L Device:C C?
 U 1 1 5EA5FADA
@@ -678,23 +629,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 2075 2975 2075
 $Comp
-L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR011
-U 1 1 5EF95D3D
-P 3500 7100
-AR Path="/5EF95D3D" Ref="#PWR011"  Part="1" 
-AR Path="/5C8C5FC0/5EF95D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5CAAE8D3/5EF95D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5E4B0DD9/5EF95D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5E62ACA1/5EF95D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5F49A670/5EF95D3D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR011" H 3500 6850 50  0001 C CNN
-F 1 "GND" H 3505 6927 50  0000 C CNN
-F 2 "" H 3500 7100 50  0001 C CNN
-F 3 "" H 3500 7100 50  0001 C CNN
-	1    3500 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H5
 U 1 1 5EF9702E
 P 8850 4675
@@ -729,77 +663,12 @@ Wire Wire Line
 Wire Wire Line
 	2000 5500 2000 5325
 Wire Wire Line
-	1500 7475 1950 7475
-Wire Wire Line
 	1400 5325 2000 5325
 Connection ~ 2000 5325
 Wire Wire Line
 	2000 5325 2075 5325
-Text GLabel 1500 7475 0    50   Input ~ 0
+Text GLabel 6850 1750 2    50   Input ~ 0
 Out1
-Wire Wire Line
-	2650 7100 2450 7100
-$Comp
-L Device:R R6
-U 1 1 5EB6735A
-P 2300 7100
-AR Path="/5EB6735A" Ref="R6"  Part="1" 
-AR Path="/5C8C5FC0/5EB6735A" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5EB6735A" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/5EB6735A" Ref="R?"  Part="1" 
-AR Path="/5F49A670/5EB6735A" Ref="R?"  Part="1" 
-F 0 "R6" V 2175 7100 50  0000 C CNN
-F 1 "100k" V 2300 7100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2230 7100 50  0001 C CNN
-F 3 "~" H 2300 7100 50  0001 C CNN
-	1    2300 7100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 7100 1950 7100
-$Comp
-L Device:R R10
-U 1 1 5EB67365
-P 2950 7100
-AR Path="/5EB67365" Ref="R10"  Part="1" 
-AR Path="/5C8C5FC0/5EB67365" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5EB67365" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/5EB67365" Ref="R?"  Part="1" 
-AR Path="/5F49A670/5EB67365" Ref="R?"  Part="1" 
-F 0 "R10" V 2825 7100 50  0000 C CNN
-F 1 "10k" V 2950 7075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2880 7100 50  0001 C CNN
-F 3 "~" H 2950 7100 50  0001 C CNN
-	1    2950 7100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2650 7100 2800 7100
-Connection ~ 2650 7100
-Wire Wire Line
-	2650 7100 2650 7375
-$Comp
-L Device:R R9
-U 1 1 5EBA2A5E
-P 2825 7575
-AR Path="/5EBA2A5E" Ref="R9"  Part="1" 
-AR Path="/5C8C5FC0/5EBA2A5E" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5EBA2A5E" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/5EBA2A5E" Ref="R?"  Part="1" 
-AR Path="/5F49A670/5EBA2A5E" Ref="R?"  Part="1" 
-F 0 "R9" V 2700 7575 50  0000 C CNN
-F 1 "10k" V 2825 7550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2755 7575 50  0001 C CNN
-F 3 "~" H 2825 7575 50  0001 C CNN
-	1    2825 7575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2675 7575 2600 7575
-Text GLabel 3525 7575 2    50   Input ~ 0
-Flow1
-Wire Wire Line
-	2975 7575 3525 7575
 $Comp
 L Device:D D5
 U 1 1 5F094B09
@@ -1166,19 +1035,19 @@ Text Notes 9025 650  0    50   ~ 0
 Mixer Input
 $Comp
 L Amplifier_Operational:TL072 U?
-U 1 1 6058F368
+U 2 1 6058F368
 P 6425 5225
 AR Path="/5D99B81E/6058F368" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/6058F368" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/6058F368" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/6058F368" Ref="U?"  Part="1" 
 AR Path="/5F49A670/6058F368" Ref="U?"  Part="2" 
-AR Path="/6058F368" Ref="U2"  Part="1" 
-F 0 "U2" H 6325 5225 50  0000 C CNN
+AR Path="/6058F368" Ref="U1"  Part="2" 
+F 0 "U1" H 6325 5225 50  0000 C CNN
 F 1 "TL072" H 6525 5075 50  0000 C CNN
 F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 6425 5225 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6425 5225 50  0001 C CNN
-	1    6425 5225
+	2    6425 5225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1224,8 +1093,6 @@ Wire Wire Line
 Connection ~ 5450 1500
 Wire Wire Line
 	5450 1500 5575 1500
-Wire Wire Line
-	3100 7100 3500 7100
 Wire Wire Line
 	6550 1600 6625 1600
 Connection ~ 6625 1600
@@ -1623,166 +1490,10 @@ Wire Wire Line
 Wire Wire Line
 	8850 5550 8850 5350
 Connection ~ 8175 5550
-$Comp
-L Device:R R21
-U 1 1 6095E4B1
-P 5750 3250
-AR Path="/6095E4B1" Ref="R21"  Part="1" 
-AR Path="/5C8C5FC0/6095E4B1" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/6095E4B1" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/6095E4B1" Ref="R?"  Part="1" 
-AR Path="/5E62ACA1/6095E4B1" Ref="R?"  Part="1" 
-AR Path="/5F49A670/6095E4B1" Ref="R?"  Part="1" 
-F 0 "R21" V 5650 3175 50  0000 C CNN
-F 1 "10k" V 5750 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5680 3250 50  0001 C CNN
-F 3 "~" H 5750 3250 50  0001 C CNN
-	1    5750 3250
-	0    1    1    0   
-$EndComp
-Text GLabel 6825 2850 2    50   Input ~ 0
-Flow1
-$Comp
-L Device:R R25
-U 1 1 6095E4BC
-P 6400 2850
-AR Path="/6095E4BC" Ref="R25"  Part="1" 
-AR Path="/5C8C5FC0/6095E4BC" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/6095E4BC" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/6095E4BC" Ref="R?"  Part="1" 
-AR Path="/5E62ACA1/6095E4BC" Ref="R?"  Part="1" 
-AR Path="/5F49A670/6095E4BC" Ref="R?"  Part="1" 
-F 0 "R25" V 6300 2775 50  0000 C CNN
-F 1 "1k" V 6400 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6330 2850 50  0001 C CNN
-F 3 "~" H 6400 2850 50  0001 C CNN
-	1    6400 2850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5575 2950 5500 2950
-Wire Wire Line
-	4950 2950 5150 2950
-Wire Wire Line
-	4950 2975 4950 2950
-$Comp
-L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR014
-U 1 1 6095E4C9
-P 4950 2975
-AR Path="/6095E4C9" Ref="#PWR014"  Part="1" 
-AR Path="/5C8C5FC0/6095E4C9" Ref="#PWR?"  Part="1" 
-AR Path="/5CAAE8D3/6095E4C9" Ref="#PWR?"  Part="1" 
-AR Path="/5E4B0DD9/6095E4C9" Ref="#PWR?"  Part="1" 
-AR Path="/5E62ACA1/6095E4C9" Ref="#PWR?"  Part="1" 
-AR Path="/5F49A670/6095E4C9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR014" H 4950 2725 50  0001 C CNN
-F 1 "GND" H 4955 2802 50  0000 C CNN
-F 2 "" H 4950 2975 50  0001 C CNN
-F 3 "" H 4950 2975 50  0001 C CNN
-	1    4950 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R17
-U 1 1 6095E4D3
-P 5300 2950
-AR Path="/6095E4D3" Ref="R17"  Part="1" 
-AR Path="/5C8C5FC0/6095E4D3" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/6095E4D3" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/6095E4D3" Ref="R?"  Part="1" 
-AR Path="/5E62ACA1/6095E4D3" Ref="R?"  Part="1" 
-AR Path="/5F49A670/6095E4D3" Ref="R?"  Part="1" 
-F 0 "R17" V 5200 2875 50  0000 C CNN
-F 1 "OPEN" V 5300 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 2950 50  0001 C CNN
-F 3 "~" H 5300 2950 50  0001 C CNN
-	1    5300 2950
-	0    1    1    0   
-$EndComp
-Text GLabel 5125 2750 0    50   Input ~ 0
+Text GLabel 5125 1350 0    50   Input ~ 0
 In2
 Wire Wire Line
-	6225 2850 6250 2850
-Wire Wire Line
-	4950 3250 5150 3250
-Wire Wire Line
-	4950 3275 4950 3250
-$Comp
-L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR015
-U 1 1 6095E4E2
-P 4950 3275
-AR Path="/6095E4E2" Ref="#PWR015"  Part="1" 
-AR Path="/5C8C5FC0/6095E4E2" Ref="#PWR?"  Part="1" 
-AR Path="/5CAAE8D3/6095E4E2" Ref="#PWR?"  Part="1" 
-AR Path="/5E4B0DD9/6095E4E2" Ref="#PWR?"  Part="1" 
-AR Path="/5E62ACA1/6095E4E2" Ref="#PWR?"  Part="1" 
-AR Path="/5F49A670/6095E4E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR015" H 4950 3025 50  0001 C CNN
-F 1 "GND" H 4955 3102 50  0000 C CNN
-F 2 "" H 4950 3275 50  0001 C CNN
-F 3 "" H 4950 3275 50  0001 C CNN
-	1    4950 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 6095E4EC
-P 5300 3250
-AR Path="/6095E4EC" Ref="R18"  Part="1" 
-AR Path="/5C8C5FC0/6095E4EC" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/6095E4EC" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/6095E4EC" Ref="R?"  Part="1" 
-AR Path="/5E62ACA1/6095E4EC" Ref="R?"  Part="1" 
-AR Path="/5F49A670/6095E4EC" Ref="R?"  Part="1" 
-F 0 "R18" V 5200 3175 50  0000 C CNN
-F 1 "100k" V 5300 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5230 3250 50  0001 C CNN
-F 3 "~" H 5300 3250 50  0001 C CNN
-	1    5300 3250
-	0    1    1    0   
-$EndComp
-Connection ~ 6225 2850
-$Comp
-L Amplifier_Operational:TL072 U?
-U 2 1 6095E4F7
-P 5875 2850
-AR Path="/5D99B81E/6095E4F7" Ref="U?"  Part="3" 
-AR Path="/5D99B7BA/6095E4F7" Ref="U?"  Part="1" 
-AR Path="/5F18E4B5/6095E4F7" Ref="U?"  Part="2" 
-AR Path="/5E62ACA1/6095E4F7" Ref="U?"  Part="1" 
-AR Path="/5F49A670/6095E4F7" Ref="U?"  Part="1" 
-AR Path="/6095E4F7" Ref="U2"  Part="2" 
-F 0 "U2" H 5800 2900 50  0000 C CNN
-F 1 "TL072" H 5800 2800 50  0000 C CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5875 2850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5875 2850 50  0001 C CNN
-	2    5875 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6175 2850 6225 2850
-Wire Wire Line
-	5900 3250 6225 3250
-Wire Wire Line
-	6225 2850 6225 3250
-Wire Wire Line
-	5450 3250 5500 3250
-Wire Wire Line
-	5500 3250 5500 2950
-Connection ~ 5500 3250
-Wire Wire Line
-	5500 3250 5600 3250
-Wire Wire Line
-	5450 2950 5450 2750
-Connection ~ 5450 2750
-Wire Wire Line
-	5450 2750 5575 2750
-Wire Wire Line
 	5125 1500 5450 1500
-Wire Wire Line
-	5125 2750 5450 2750
-Wire Wire Line
-	6550 2850 6825 2850
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 60A2D5E8
@@ -1868,8 +1579,6 @@ Wire Wire Line
 Connection ~ 2025 3300
 Wire Wire Line
 	2025 3300 2025 3350
-Wire Wire Line
-	1950 7100 1950 7475
 $Comp
 L Device:Amperemeter_AC MES2
 U 1 1 60A9F992
@@ -2006,10 +1715,10 @@ F 3 "" H 925 5475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H9
 U 1 1 60AF0323
 P 700 5375
-F 0 "H?" H 800 5424 50  0000 L CNN
+F 0 "H9" H 800 5424 50  0000 L CNN
 F 1 "Jack" H 800 5333 50  0000 L CNN
 F 2 "AJ:Jack_3m5" H 700 5375 50  0001 C CNN
 F 3 "~" H 700 5375 50  0001 C CNN
@@ -2024,15 +1733,15 @@ Wire Wire Line
 Wire Wire Line
 	2375 5825 2425 5825
 $Comp
-L Device:R R?
+L Device:R R29
 U 1 1 60AFA9E5
 P 2225 5825
-AR Path="/60AFA9E5" Ref="R?"  Part="1" 
+AR Path="/60AFA9E5" Ref="R29"  Part="1" 
 AR Path="/5C8C5FC0/60AFA9E5" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/60AFA9E5" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/60AFA9E5" Ref="R?"  Part="1" 
 AR Path="/5F49A670/60AFA9E5" Ref="R?"  Part="1" 
-F 0 "R?" V 2100 5825 50  0000 C CNN
+F 0 "R29" V 2100 5825 50  0000 C CNN
 F 1 "1k" V 2225 5825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2155 5825 50  0001 C CNN
 F 3 "~" H 2225 5825 50  0001 C CNN
@@ -2042,10 +1751,10 @@ $EndComp
 Wire Wire Line
 	1550 5725 1550 6000
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 60AFA9F0
 P 1475 5725
-F 0 "TP?" H 1533 5843 50  0000 L CNN
+F 0 "TP4" H 1533 5843 50  0000 L CNN
 F 1 "Out" H 1533 5752 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1675 5725 50  0001 C CNN
 F 3 "~" H 1675 5725 50  0001 C CNN
@@ -2056,16 +1765,16 @@ Connection ~ 1475 5725
 Wire Wire Line
 	1475 5725 1400 5725
 $Comp
-L Device:R R?
+L Device:R R28
 U 1 1 60AFA9FC
 P 1800 6000
-AR Path="/60AFA9FC" Ref="R?"  Part="1" 
+AR Path="/60AFA9FC" Ref="R28"  Part="1" 
 AR Path="/5C8C5FC0/60AFA9FC" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/60AFA9FC" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/60AFA9FC" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/60AFA9FC" Ref="R?"  Part="1" 
 AR Path="/5F49A670/60AFA9FC" Ref="R?"  Part="1" 
-F 0 "R?" V 1875 6075 50  0000 C CNN
+F 0 "R28" V 1875 6075 50  0000 C CNN
 F 1 "OPEN" V 1800 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 6000 50  0001 C CNN
 F 3 "~" H 1800 6000 50  0001 C CNN
@@ -2084,10 +1793,10 @@ Connection ~ 2000 5825
 Wire Wire Line
 	2000 5825 2075 5825
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J4
 U 1 1 60AFAA0C
 P 1200 5825
-F 0 "J?" H 1308 6106 50  0000 C CNN
+F 0 "J4" H 1308 6106 50  0000 C CNN
 F 1 "Out" H 1308 6015 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1200 5825 50  0001 C CNN
 F 3 "~" H 1200 5825 50  0001 C CNN
@@ -2096,4 +1805,12 @@ F 3 "~" H 1200 5825 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2425 5825 2425 5325
+Wire Wire Line
+	6850 1750 6625 1750
+Wire Wire Line
+	6625 1750 6625 1600
+Wire Wire Line
+	5450 1500 5450 1350
+Wire Wire Line
+	5450 1350 5125 1350
 $EndSCHEMATC
