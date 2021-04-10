@@ -188,7 +188,7 @@ AR Path="/5F49A670/5F4F8A15" Ref="U?"  Part="3"
 AR Path="/5F4F8A15" Ref="U1"  Part="3" 
 F 0 "U1" V 2675 1125 50  0000 C CNN
 F 1 "TL072" V 2675 1650 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2825 1400 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2825 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2825 1400 50  0001 C CNN
 	3    2825 1400
 	-1   0    0    -1  
@@ -203,7 +203,7 @@ AR Path="/5F49A670/5F4F8A1B" Ref="P?"  Part="1"
 AR Path="/5F4F8A1B" Ref="P1"  Part="1" 
 F 0 "P1" H 1875 902 40  0000 C CNN
 F 1 "HEADER_2x5_Doepfer" H 1850 1100 40  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1525 650 60  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 1525 650 60  0000 C CNN
 F 3 "" H 1875 1400 60  0000 C CNN
 	1    1875 1400
 	-1   0    0    1   
@@ -527,7 +527,7 @@ AR Path="/5F49A670/5F7CE424" Ref="U?"  Part="2"
 AR Path="/5F7CE424" Ref="U2"  Part="2" 
 F 0 "U2" H 2325 7450 50  0000 C CNN
 F 1 "TL072" H 2275 7525 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2300 7475 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2300 7475 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2300 7475 50  0001 C CNN
 	2    2300 7475
 	-1   0    0    1   
@@ -631,7 +631,7 @@ AR Path="/5F49A670/5E9259AD" Ref="U?"  Part="3"
 AR Path="/5E9259AD" Ref="U2"  Part="3" 
 F 0 "U2" V 2800 1125 50  0000 C CNN
 F 1 "TL072" V 2800 1650 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2950 1400 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 2950 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2950 1400 50  0001 C CNN
 	3    2950 1400
 	-1   0    0    -1  
@@ -1353,7 +1353,7 @@ AR Path="/5F49A670/6058F368" Ref="U?"  Part="2"
 AR Path="/6058F368" Ref="U2"  Part="1" 
 F 0 "U2" H 6325 5225 50  0000 C CNN
 F 1 "TL072" H 6525 5075 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 6425 5225 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 6425 5225 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6425 5225 50  0001 C CNN
 	1    6425 5225
 	1    0    0    -1  
@@ -1370,7 +1370,7 @@ AR Path="/5F49A670/604DA92D" Ref="U?"  Part="1"
 AR Path="/604DA92D" Ref="U1"  Part="1" 
 F 0 "U1" H 5800 1650 50  0000 C CNN
 F 1 "TL072" H 5800 1550 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 5875 1600 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5875 1600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5875 1600 50  0001 C CNN
 	1    5875 1600
 	1    0    0    -1  
@@ -1952,7 +1952,7 @@ AR Path="/5F49A670/6095E4F7" Ref="U?"  Part="1"
 AR Path="/6095E4F7" Ref="U1"  Part="2" 
 F 0 "U1" H 5800 2900 50  0000 C CNN
 F 1 "TL072" H 5800 2800 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 5875 2850 50  0001 C CNN
+F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5875 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5875 2850 50  0001 C CNN
 	2    5875 2850
 	1    0    0    -1  
