@@ -13,103 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:AudioJack2_SwitchT J3
-U 1 1 5F4B9283
-P 1775 2650
-AR Path="/5F4B9283" Ref="J3"  Part="1" 
-AR Path="/5C8C5FC0/5F4B9283" Ref="J?"  Part="1" 
-AR Path="/5CAAE8D3/5F4B9283" Ref="J?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B9283" Ref="J?"  Part="1" 
-AR Path="/5F49A670/5F4B9283" Ref="J?"  Part="1" 
-F 0 "J3" H 1525 2800 50  0000 C CNN
-F 1 "In1.1" H 1575 2700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1775 2650 50  0001 C CNN
-F 3 "~" H 1775 2650 50  0001 C CNN
-	1    1775 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1975 2650 2225 2650
-$Comp
-L Connector:AudioJack2_SwitchT J1
-U 1 1 5F4B9291
-P 1200 5325
-AR Path="/5F4B9291" Ref="J1"  Part="1" 
-AR Path="/5C8C5FC0/5F4B9291" Ref="J?"  Part="1" 
-AR Path="/5CAAE8D3/5F4B9291" Ref="J?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B9291" Ref="J?"  Part="1" 
-AR Path="/5F49A670/5F4B9291" Ref="J?"  Part="1" 
-F 0 "J1" H 775 5500 50  0000 C CNN
-F 1 "Out1" H 900 5400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1200 5325 50  0001 C CNN
-F 3 "~" H 1200 5325 50  0001 C CNN
-	1    1200 5325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2125 2550 2025 2550
-$Comp
-L Connector:AudioJack2_SwitchT J2
-U 1 1 5F4B92A9
-P 1200 6025
-AR Path="/5F4B92A9" Ref="J2"  Part="1" 
-AR Path="/5C8C5FC0/5F4B92A9" Ref="J?"  Part="1" 
-AR Path="/5CAAE8D3/5F4B92A9" Ref="J?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B92A9" Ref="J?"  Part="1" 
-AR Path="/5F49A670/5F4B92A9" Ref="J?"  Part="1" 
-F 0 "J2" H 750 6175 50  0000 C CNN
-F 1 "Out2" H 900 6100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1200 6025 50  0001 C CNN
-F 3 "~" H 1200 6025 50  0001 C CNN
-	1    1200 6025
-	1    0    0    -1  
-$EndComp
-$Comp
-L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR01
-U 1 1 5F4B92B1
-P 1550 6200
-AR Path="/5F4B92B1" Ref="#PWR01"  Part="1" 
-AR Path="/5C8C5FC0/5F4B92B1" Ref="#PWR?"  Part="1" 
-AR Path="/5CAAE8D3/5F4B92B1" Ref="#PWR?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B92B1" Ref="#PWR?"  Part="1" 
-AR Path="/5F49A670/5F4B92B1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR01" H 1550 5950 50  0001 C CNN
-F 1 "GND" H 1555 6027 50  0000 C CNN
-F 2 "" H 1550 6200 50  0001 C CNN
-F 3 "" H 1550 6200 50  0001 C CNN
-	1    1550 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 5925 1475 5925
 Wire Wire Line
 	1550 5225 1475 5225
-Connection ~ 1550 5925
-Wire Wire Line
-	1450 5425 1400 5425
-$Comp
-L Connector:AudioJack2_SwitchT J5
-U 1 1 5F4B92BD
-P 1775 4025
-AR Path="/5F4B92BD" Ref="J5"  Part="1" 
-AR Path="/5C8C5FC0/5F4B92BD" Ref="J?"  Part="1" 
-AR Path="/5CAAE8D3/5F4B92BD" Ref="J?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B92BD" Ref="J?"  Part="1" 
-AR Path="/5F49A670/5F4B92BD" Ref="J?"  Part="1" 
-F 0 "J5" H 1525 4225 50  0000 C CNN
-F 1 "In1.3" H 1575 4125 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1775 4025 50  0001 C CNN
-F 3 "~" H 1775 4025 50  0001 C CNN
-	1    1775 4025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1975 4025 2225 4025
 Wire Wire Line
 	1975 3925 2025 3925
-Wire Wire Line
-	1550 5925 1550 6200
 $Comp
 L Graphic:SYM_Hot_Large #SYM?
 U 1 1 5F4B9364
@@ -142,22 +51,6 @@ F 3 "~" H 2375 4025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2375 5325 2425 5325
-$Comp
-L Device:R R5
-U 1 1 5F4B93DA
-P 2225 6025
-AR Path="/5F4B93DA" Ref="R5"  Part="1" 
-AR Path="/5C8C5FC0/5F4B93DA" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5F4B93DA" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B93DA" Ref="R?"  Part="1" 
-AR Path="/5F49A670/5F4B93DA" Ref="R?"  Part="1" 
-F 0 "R5" V 2100 6025 50  0000 C CNN
-F 1 "1k" V 2225 6000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2155 6025 50  0001 C CNN
-F 3 "~" H 2225 6025 50  0001 C CNN
-	1    2225 6025
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R4
 U 1 1 5F4B93E0
@@ -495,27 +388,6 @@ F 3 "" H 2025 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
-U 1 1 5F56AA7E
-P 1800 6200
-AR Path="/5F56AA7E" Ref="R3"  Part="1" 
-AR Path="/5C8C5FC0/5F56AA7E" Ref="R?"  Part="1" 
-AR Path="/5CAAE8D3/5F56AA7E" Ref="R?"  Part="1" 
-AR Path="/5E4B0DD9/5F56AA7E" Ref="R?"  Part="1" 
-AR Path="/5E62ACA1/5F56AA7E" Ref="R?"  Part="1" 
-AR Path="/5F49A670/5F56AA7E" Ref="R?"  Part="1" 
-F 0 "R3" V 1875 6275 50  0000 C CNN
-F 1 "OPEN" V 1800 6200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1730 6200 50  0001 C CNN
-F 3 "~" H 1800 6200 50  0001 C CNN
-	1    1800 6200
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1650 6200 1550 6200
-Wire Wire Line
-	1950 6200 2000 6200
-$Comp
 L Amplifier_Operational:TL072 U?
 U 2 1 5F7CE424
 P 2300 7475
@@ -570,13 +442,6 @@ Wire Wire Line
 	1725 1400 1625 1400
 Wire Wire Line
 	1550 5225 1550 5500
-Wire Wire Line
-	1400 6025 2000 6025
-Wire Wire Line
-	2000 6200 2000 6025
-Connection ~ 2000 6025
-Wire Wire Line
-	2000 6025 2075 6025
 Wire Wire Line
 	2600 7375 2650 7375
 Connection ~ 1950 7475
@@ -708,8 +573,8 @@ L Connector:TestPoint TP1
 U 1 1 5EE75A89
 P 1475 5225
 F 0 "TP1" H 1533 5343 50  0000 L CNN
-F 1 "Tri" H 1533 5252 50  0000 L CNN
-F 2 "AJ:Jack_6m3" H 1675 5225 50  0001 C CNN
+F 1 "Out" H 1533 5252 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1675 5225 50  0001 C CNN
 F 3 "~" H 1675 5225 50  0001 C CNN
 	1    1475 5225
 	1    0    0    -1  
@@ -718,52 +583,24 @@ Connection ~ 1475 5225
 Wire Wire Line
 	1475 5225 1400 5225
 $Comp
-L Connector:TestPoint TP2
-U 1 1 5EEA7CE8
-P 1475 5925
-F 0 "TP2" H 1533 6043 50  0000 L CNN
-F 1 "SQ" H 1533 5952 50  0000 L CNN
-F 2 "AJ:Jack_6m3" H 1675 5925 50  0001 C CNN
-F 3 "~" H 1675 5925 50  0001 C CNN
-	1    1475 5925
-	1    0    0    -1  
-$EndComp
-Connection ~ 1475 5925
-Wire Wire Line
-	1475 5925 1400 5925
-$Comp
 L Connector:TestPoint TP5
 U 1 1 5EEA942D
 P 2100 3925
 F 0 "TP5" H 2158 4043 50  0000 L CNN
-F 1 "In3" H 2158 3952 50  0000 L CNN
-F 2 "AJ:Jack_6m3" H 2300 3925 50  0001 C CNN
+F 1 "In2" H 2158 3952 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2300 3925 50  0001 C CNN
 F 3 "~" H 2300 3925 50  0001 C CNN
 	1    2100 3925
 	1    0    0    -1  
 $EndComp
 Connection ~ 2025 3925
 $Comp
-L Connector:TestPoint TP3
-U 1 1 5EEAA042
-P 2025 2550
-F 0 "TP3" H 2083 2668 50  0000 L CNN
-F 1 "In1" H 2083 2577 50  0000 L CNN
-F 2 "AJ:Jack_6m3" H 2225 2550 50  0001 C CNN
-F 3 "~" H 2225 2550 50  0001 C CNN
-	1    2025 2550
-	1    0    0    -1  
-$EndComp
-Connection ~ 2025 2550
-Wire Wire Line
-	2025 2550 1975 2550
-$Comp
 L Connector:TestPoint TP7
 U 1 1 5EEAC9DC
 P 6625 1600
 F 0 "TP7" H 6683 1718 50  0000 L CNN
 F 1 "Flow1" H 6683 1627 50  0000 L CNN
-F 2 "AJ:Pot_6m3_scale1" H 6825 1600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6825 1600 50  0001 C CNN
 F 3 "~" H 6825 1600 50  0001 C CNN
 	1    6625 1600
 	1    0    0    -1  
@@ -863,12 +700,11 @@ U 1 1 5EF9702E
 P 9100 4750
 F 0 "H1" H 9200 4796 50  0000 L CNN
 F 1 "Meter" H 9200 4705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_8.4mm_M8_Pad_Via" H 9100 4750 50  0001 C CNN
+F 2 "AJ:VU_Meter_Hole" H 9100 4750 50  0001 C CNN
 F 3 "~" H 9100 4750 50  0001 C CNN
 	1    9100 4750
 	1    0    0    -1  
 $EndComp
-Connection ~ 1550 6200
 $Comp
 L Device:R R2
 U 1 1 5E88D30A
@@ -892,9 +728,6 @@ Wire Wire Line
 	1950 5500 2000 5500
 Wire Wire Line
 	2000 5500 2000 5325
-Connection ~ 1550 5500
-Wire Wire Line
-	1550 5500 1550 5925
 Wire Wire Line
 	1500 7475 1950 7475
 Wire Wire Line
@@ -902,14 +735,8 @@ Wire Wire Line
 Connection ~ 2000 5325
 Wire Wire Line
 	2000 5325 2075 5325
-Text GLabel 2425 6025 2    50   Input ~ 0
-Out2
-Wire Wire Line
-	2425 6025 2375 6025
 Text GLabel 1500 7475 0    50   Input ~ 0
 Out1
-Text GLabel 1500 7300 0    50   Input ~ 0
-Out2
 Wire Wire Line
 	2650 7100 2450 7100
 $Comp
@@ -951,8 +778,6 @@ Wire Wire Line
 Connection ~ 2650 7100
 Wire Wire Line
 	2650 7100 2650 7375
-Wire Wire Line
-	1950 7100 1950 7300
 $Comp
 L Device:R R12
 U 1 1 5EBA2A5E
@@ -1215,8 +1040,6 @@ F 3 "~" H 2025 3125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1975 2750 2025 2750
-Wire Wire Line
 	1975 4125 2175 4125
 Text Notes 4550 4275 0    97   ~ 0
 CHECK POTS
@@ -1378,14 +1201,9 @@ $EndComp
 Text Notes 8875 4200 0    50   ~ 0
 Meter shaping
 Wire Wire Line
-	2175 2750 2175 4125
+	2175 2750 2175 3300
 Wire Wire Line
-	2025 2975 2025 2750
-Connection ~ 2025 2750
-Wire Wire Line
-	2025 2750 2175 2750
-Wire Wire Line
-	2025 3275 2025 3925
+	2025 3275 2025 3300
 Wire Wire Line
 	2025 3925 2100 3925
 Wire Wire Line
@@ -1406,11 +1224,6 @@ Wire Wire Line
 Connection ~ 5450 1500
 Wire Wire Line
 	5450 1500 5575 1500
-Wire Wire Line
-	1500 7300 1950 7300
-Connection ~ 1950 7300
-Wire Wire Line
-	1950 7300 1950 7475
 Wire Wire Line
 	3100 7100 3500 7100
 Wire Wire Line
@@ -1811,17 +1624,6 @@ Wire Wire Line
 	8850 5550 8850 5350
 Connection ~ 8175 5550
 $Comp
-L Connector:TestPoint TP4
-U 1 1 6095DC67
-P 6625 2850
-F 0 "TP4" H 6683 2968 50  0000 L CNN
-F 1 "Flow1" H 6683 2877 50  0000 L CNN
-F 2 "AJ:Pot_6m3_scale1" H 6825 2850 50  0001 C CNN
-F 3 "~" H 6825 2850 50  0001 C CNN
-	1    6625 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R20
 U 1 1 6095E4B1
 P 5750 3250
@@ -1976,12 +1778,96 @@ Connection ~ 5450 2750
 Wire Wire Line
 	5450 2750 5575 2750
 Wire Wire Line
-	6550 2850 6625 2850
-Connection ~ 6625 2850
-Wire Wire Line
-	6625 2850 6825 2850
-Wire Wire Line
 	5125 1500 5450 1500
 Wire Wire Line
 	5125 2750 5450 2750
+Wire Wire Line
+	6550 2850 6825 2850
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 60A2D5E8
+P 1775 2650
+F 0 "J2" H 1883 2931 50  0000 C CNN
+F 1 "In1" H 1883 2840 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1775 2650 50  0001 C CNN
+F 3 "~" H 1775 2650 50  0001 C CNN
+	1    1775 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 60A2E373
+P 1775 4025
+F 0 "J3" H 1883 4306 50  0000 C CNN
+F 1 "In2" H 1883 4215 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1775 4025 50  0001 C CNN
+F 3 "~" H 1775 4025 50  0001 C CNN
+	1    1775 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 60A2EBED
+P 1200 5325
+F 0 "J1" H 1308 5606 50  0000 C CNN
+F 1 "Out" H 1308 5515 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 1200 5325 50  0001 C CNN
+F 3 "~" H 1200 5325 50  0001 C CNN
+	1    1200 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR01
+U 1 1 60A2F2A5
+P 2175 4125
+AR Path="/60A2F2A5" Ref="#PWR01"  Part="1" 
+AR Path="/5C8C5FC0/60A2F2A5" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60A2F2A5" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60A2F2A5" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60A2F2A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60A2F2A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01" H 2175 3875 50  0001 C CNN
+F 1 "GND" H 2180 3952 50  0000 C CNN
+F 2 "" H 2175 4125 50  0001 C CNN
+F 3 "" H 2175 4125 50  0001 C CNN
+	1    2175 4125
+	1    0    0    -1  
+$EndComp
+Connection ~ 2175 4125
+Wire Wire Line
+	1975 2750 2175 2750
+Wire Wire Line
+	1975 2650 2225 2650
+Wire Wire Line
+	2025 2975 2025 2550
+Wire Wire Line
+	2025 2550 1975 2550
+$Comp
+L Device:R R3
+U 1 1 60A4C45F
+P 2025 3500
+AR Path="/60A4C45F" Ref="R3"  Part="1" 
+AR Path="/5C8C5FC0/60A4C45F" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/60A4C45F" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/60A4C45F" Ref="R?"  Part="1" 
+AR Path="/5F49A670/60A4C45F" Ref="R?"  Part="1" 
+F 0 "R3" V 1950 3500 50  0000 C CNN
+F 1 "10k" V 2025 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1955 3500 50  0001 C CNN
+F 3 "~" H 2025 3500 50  0001 C CNN
+	1    2025 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2025 3650 2025 3925
+Wire Wire Line
+	2175 3300 2025 3300
+Connection ~ 2175 3300
+Wire Wire Line
+	2175 3300 2175 4125
+Connection ~ 2025 3300
+Wire Wire Line
+	2025 3300 2025 3350
+Wire Wire Line
+	1950 7100 1950 7475
 $EndSCHEMATC
