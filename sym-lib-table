@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name KicadJE_Util-rescue)(type Legacy)(uri ${KIPRJMOD}/KicadJE_Util-rescue.lib)(options "")(descr ""))
+  (lib (name KicadJE_VU_Meter-rescue)(type Legacy)(uri ${KIPRJMOD}/KicadJE_VU_Meter-rescue.lib)(options "")(descr ""))
+)
