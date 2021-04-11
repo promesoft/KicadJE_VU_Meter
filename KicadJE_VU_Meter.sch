@@ -14,8 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	1550 5225 1475 5225
-Wire Wire Line
 	1975 4025 2225 4025
 Wire Wire Line
 	1975 3925 2025 3925
@@ -276,21 +274,6 @@ F 3 "" H 1625 1400 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5F4F8A7C
-P 2600 1200
-AR Path="/5E4B0DD9/5F4F8A7C" Ref="C?"  Part="1" 
-AR Path="/5E62ACA1/5F4F8A7C" Ref="C?"  Part="1" 
-AR Path="/5F49A670/5F4F8A7C" Ref="C?"  Part="1" 
-AR Path="/5F4F8A7C" Ref="C3"  Part="1" 
-F 0 "C3" H 2500 1300 50  0000 L CNN
-F 1 "100n" H 2500 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 1050 50  0001 C CNN
-F 3 "~" H 2600 1200 50  0001 C CNN
-	1    2600 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5F4F8A82
 P 2600 1600
 AR Path="/5E4B0DD9/5F4F8A82" Ref="C?"  Part="1" 
@@ -456,21 +439,6 @@ Text Notes 4250 4800 0    50   ~ 0
 Input 
 Text Notes 4225 5000 0    50   ~ 0
 Output 
-$Comp
-L Device:C C?
-U 1 1 5EA5FADA
-P 2800 1600
-AR Path="/5E4B0DD9/5EA5FADA" Ref="C?"  Part="1" 
-AR Path="/5E62ACA1/5EA5FADA" Ref="C?"  Part="1" 
-AR Path="/5F49A670/5EA5FADA" Ref="C?"  Part="1" 
-AR Path="/5EA5FADA" Ref="C6"  Part="1" 
-F 0 "C6" H 2750 1725 50  0000 L CNN
-F 1 "100n" H 2725 1475 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2838 1450 50  0001 C CNN
-F 3 "~" H 2800 1600 50  0001 C CNN
-	1    2800 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 1450 2800 1400
 Wire Wire Line
@@ -522,17 +490,14 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5EE75A89
-P 1475 5225
-F 0 "TP1" H 1533 5343 50  0000 L CNN
-F 1 "Out" H 1533 5252 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1675 5225 50  0001 C CNN
-F 3 "~" H 1675 5225 50  0001 C CNN
-	1    1475 5225
+P 2000 5325
+F 0 "TP1" H 2058 5443 50  0000 L CNN
+F 1 "Out" H 2058 5352 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2200 5325 50  0001 C CNN
+F 3 "~" H 2200 5325 50  0001 C CNN
+	1    2000 5325
 	1    0    0    -1  
 $EndComp
-Connection ~ 1475 5225
-Wire Wire Line
-	1475 5225 1400 5225
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5EEA942D
@@ -942,7 +907,7 @@ AR Path="/5E4B0DD9/5F90A421" Ref="R?"  Part="1"
 AR Path="/5E62ACA1/5F90A421" Ref="R?"  Part="1" 
 AR Path="/5F49A670/5F90A421" Ref="R?"  Part="1" 
 F 0 "R24" V 6300 1525 50  0000 C CNN
-F 1 "1k" V 6400 1600 50  0000 C CNN
+F 1 "0R" V 6400 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6330 1600 50  0001 C CNN
 F 3 "~" H 6400 1600 50  0001 C CNN
 	1    6400 1600
@@ -1729,8 +1694,6 @@ Wire Wire Line
 	700  5475 925  5475
 Connection ~ 925  5475
 Wire Wire Line
-	1550 5725 1475 5725
-Wire Wire Line
 	2375 5825 2425 5825
 $Comp
 L Device:R R29
@@ -1753,17 +1716,14 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP4
 U 1 1 60AFA9F0
-P 1475 5725
-F 0 "TP4" H 1533 5843 50  0000 L CNN
-F 1 "Out" H 1533 5752 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1675 5725 50  0001 C CNN
-F 3 "~" H 1675 5725 50  0001 C CNN
-	1    1475 5725
+P 2000 5825
+F 0 "TP4" H 2058 5943 50  0000 L CNN
+F 1 "Out" H 2058 5852 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2200 5825 50  0001 C CNN
+F 3 "~" H 2200 5825 50  0001 C CNN
+	1    2000 5825
 	1    0    0    -1  
 $EndComp
-Connection ~ 1475 5725
-Wire Wire Line
-	1475 5725 1400 5725
 $Comp
 L Device:R R28
 U 1 1 60AFA9FC
@@ -1787,8 +1747,6 @@ Wire Wire Line
 	1950 6000 2000 6000
 Wire Wire Line
 	2000 6000 2000 5825
-Wire Wire Line
-	1400 5825 2000 5825
 Connection ~ 2000 5825
 Wire Wire Line
 	2000 5825 2075 5825
@@ -1813,4 +1771,46 @@ Wire Wire Line
 	5450 1500 5450 1350
 Wire Wire Line
 	5450 1350 5125 1350
+Wire Wire Line
+	1400 5725 1550 5725
+Wire Wire Line
+	1400 5825 2000 5825
+Wire Wire Line
+	1400 5225 1550 5225
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR0106
+U 1 1 60D60E18
+P 1550 5500
+AR Path="/60D60E18" Ref="#PWR0106"  Part="1" 
+AR Path="/5C8C5FC0/60D60E18" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60D60E18" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60D60E18" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60D60E18" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60D60E18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 1550 5250 50  0001 C CNN
+F 1 "GND" H 1555 5327 50  0000 C CNN
+F 2 "" H 1550 5500 50  0001 C CNN
+F 3 "" H 1550 5500 50  0001 C CNN
+	1    1550 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 5500
+$Comp
+L KicadJE_VU_Meter-rescue:GND-Envelope-cache-2018-08-04-13-00-04-KicadJE_Util-rescue #PWR0107
+U 1 1 60D611C1
+P 1550 6000
+AR Path="/60D611C1" Ref="#PWR0107"  Part="1" 
+AR Path="/5C8C5FC0/60D611C1" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/60D611C1" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/60D611C1" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/60D611C1" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/60D611C1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0107" H 1550 5750 50  0001 C CNN
+F 1 "GND" H 1555 5827 50  0000 C CNN
+F 2 "" H 1550 6000 50  0001 C CNN
+F 3 "" H 1550 6000 50  0001 C CNN
+	1    1550 6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 6000
 $EndSCHEMATC
