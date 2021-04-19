@@ -20,16 +20,16 @@ Output Audio
 +/- 10V DC coupled
 
 
-# Status - 
+# Status - In the mail
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch |  |
-| | pcb |  |
-| | gerber |  |
-| production  |   |  |
-|  | produced |  |
-|  | delivered |  |
+| create material  | sch |OK
+| | pcb |OK
+| | gerber |OK
+| production |  |  
+|  | produced  |OK 
+|  | delivered |In the mail
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
