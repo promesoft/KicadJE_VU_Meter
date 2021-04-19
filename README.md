@@ -52,7 +52,8 @@ Output Audio
 ### 
 
 # Pictures
-![](KicadJE_.png)
+![](KicadJE_VU_Meter_Face.png)
+![](KicadJE_VU_Meter_Back.png)
 
 # Schematic
 ## Sch 1
