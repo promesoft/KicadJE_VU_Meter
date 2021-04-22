@@ -27,7 +27,7 @@ Output Audio
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | | ok |
-| Mechanical Inspection | |  |
+| Mechanical Inspection | | 6,3mm jack on the small side |
 | Initial Technical Test | Board 1 |  |
 | Initial Product Test | Board1 |  |
 
