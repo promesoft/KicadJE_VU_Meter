@@ -6,13 +6,6 @@ Faceplate for 35mm VU Meter
 ## Board 1
 Adjustment:
 
-Gate Input
-TTL ?
-0-10V ?
-
-CV Input
-0-10V 
-
 Input Audio 
 +/- 10V DC coupled
 
@@ -20,7 +13,7 @@ Output Audio
 +/- 10V DC coupled
 
 
-# Status - In the mail
+# Status - Delivered
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -29,11 +22,12 @@ Output Audio
 | | gerber |OK
 | production |  |  
 |  | produced  |OK 
-|  | delivered |In the mail
+|  | delivered |OK
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | | ok/not ok |
+| Initial Inspection | | ok |
+| Mechanical Inspection | |  |
 | Initial Technical Test | Board 1 |  |
 | Initial Product Test | Board1 |  |
 
