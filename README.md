@@ -47,6 +47,7 @@ Output Audio
 
 # Pictures
 ![](KicadJE_VU_Meter_On.jpg)
+![](KicadJE_VU_Meter_Back_On.jpg)
 ![](KicadJE_VU_Meter_Face.png)
 ![](KicadJE_VU_Meter_Back.jpg)
 
